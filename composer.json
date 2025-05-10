@@ -1,0 +1,27 @@
+{
+    "name": "thaxam/ecwid-barcode-app",
+    "description": "EAN Barcode Generator for Ecwid Products",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "EcwidApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "thaxam.no",
+            "email": "support@thaxam.no"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
